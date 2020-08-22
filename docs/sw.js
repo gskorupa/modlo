@@ -1,4 +1,6 @@
+try{
 //self.importScripts('data/games.js');
+self=this;
 
 // Files to cache
 var cacheName = 'modlo-v1';
@@ -42,3 +44,6 @@ self.addEventListener('fetch', function(e) {
     })
   );
 });
+}catch(err){
+    console.log(err)
+}
