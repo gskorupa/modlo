@@ -9,6 +9,7 @@ const app = new App({
 
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./sw.js');
+    registerPeriodicNewsCheck();
 };
 
 async function registerPeriodicNewsCheck() {
