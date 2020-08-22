@@ -3,16 +3,15 @@
 // Files to cache
 var cacheName = 'modlo-v1';
 var appShellFiles = [
-  '/',
-  '/index.html',
-  '/favicon.png',
-  '/icons/icon.png',
-  '/icons/icon-192x192.png',
-  '/icons/icon-512x512.png',
-  '/build/bundle.css',
-  '/build/bundle.css.map',
-  '/build/bundle.js',
-  '/build/bundle.js.map'
+  './index.html',
+  './favicon.png',
+  './icons/icon.png',
+  './icons/icon-192x192.png',
+  './icons/icon-512x512.png',
+  './build/bundle.css',
+  './build/bundle.css.map',
+  './build/bundle.js',
+  './build/bundle.js.map'
 ];
 var otherFiles = [];
 var contentToCache = appShellFiles.concat(otherFiles);
