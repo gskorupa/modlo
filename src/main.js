@@ -8,7 +8,7 @@ const app = new App({
 });
 
 if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js');
+    navigator.serviceWorker.register('/modlo/sw.js');
 };
 
 export default app;
